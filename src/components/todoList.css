@@ -1,0 +1,33 @@
+.todoListContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+
+
+}
+
+.todoListContainer ul  {
+  align-self: center;
+  list-style: none;
+  margin-left: 5px;
+  padding: 10px;
+  width: 98%
+}
+
+.todoListContainer ul li {
+  padding: 10px;
+}
+
+.todoListContainer ul li:nth-child(odd) {
+  background:rgb(159, 165, 202);
+}
+
+.todoListContainer ul li:nth-child(even) {
+  background: rgb(214, 216, 230);
+}
+
+.todoListContainer ul li:hover {
+  text-decoration: line-through;
+}
+

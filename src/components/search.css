@@ -1,0 +1,18 @@
+.searchInput{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 30%;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+.searchInput:focus{
+  border-bottom: 2px solid rgb(50, 50, 206);
+}
+.searchContainer{
+  margin: 10px;
+}
+
+.searchContainer__para{
+  font-weight: 700;
+}

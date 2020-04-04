@@ -1,0 +1,28 @@
+.Auth{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.Auth__para{
+ font-size: 1.2rem;
+ font-weight: 700;
+}
+
+.loginButton{
+  width: 120px;
+  margin: 10px;
+  background-color:rgb(50, 50, 206);
+  border-radius: 5px;
+  align-self: center;
+  padding: 10px;
+  font-size: bold;
+  color:white;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.loginButton:hover {
+  width: 170px;
+  background-color:rgb(98, 98, 173);
+}

@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+
+}
+html {
+  font-size: 62.5%;
+  font: inherit;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.label {
+  padding: 10px;
+  font-weight: 700;
+}
+
+
+.button {
+  width: 120px;
+  margin: 10px;
+  background-color:rgb(50, 50, 206);
+  border-radius: 5px;
+  align-self: center;
+  padding: 10px;
+  font-size: bold;
+  color:white;
+  font-weight: 700;
+  font-style: normal;
+  
+  
+}
+.button:hover {width: 170px;
+background-color:rgb(98, 98, 173);
+}
+.todoInput{
+  align-self: center;
+  border: none;
+  border-bottom: 2px solid gray;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.todoInput:focus{
+
+  border-bottom: 2px solid rgb(50, 50, 206);
+}

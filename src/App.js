@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import TodoForm from './components/todoForm'
 import './App.css';
+import Auth from './components/Auth';
+import { AuthContext } from './components/Context/auth-context';
+
 
 function App() {
+const [authenticated, setAuthenticated] = useState(false);
+
+const loginHandlar = () => {
+  setAuthenticated(true);
+}
   return (
+    <AuthContext.Provider value={{login: loginHandlar, authenticate: authenticated}}>
+   
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <p className="appTitle">My todo App</p>
+      {authenticated ? <TodoForm /> : <Auth />}
     </div>
+    </AuthContext.Provider>
   );
 }
 
