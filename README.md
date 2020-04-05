@@ -1,3 +1,9 @@
+UI description:
+First, you have to authenticate with the login button.
+Once you login, You can add, search and delete the todo list. The data of the app is being stored and deleted in the firebase based on the use's requirement. 
+
+![alt text](https://github.com/tajinjoya/react-todoApp/blob/master/Screenshot%202020-04-05%20at%2002.43.29.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
