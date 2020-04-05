@@ -1,4 +1,4 @@
-# UI description:
+## UI description:
 First, you have to authenticate with the login button.
 Once you login, You can add, search and delete the todo list. The data of the app is being stored and deleted in the firebase based on the use's requirement. 
 
